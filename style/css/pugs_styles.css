@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8C8DC;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #A67B5B; /* color piel de pug */
+    margin-top: 20px;
+}
+
+.text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #A67B5B; /* color piel de pug */
+    margin-top: 20px;
+}
+
+.gif_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  gap: 20px; /* espacio entre los gifs */
+  justify-items: center;
+  margin-top: 20px;
+}
+
+
+.gif_grid img {
+    width: 150px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
